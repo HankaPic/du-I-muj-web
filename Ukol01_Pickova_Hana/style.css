@@ -1,0 +1,214 @@
+
+body {
+    color: #707380;
+    background-color: #E0E5FF;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+section {
+    padding: 30px 15%;
+    overflow: auto;
+    border-left: 25px #383940 dotted;
+}
+
+/* obecné prvky */
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 15px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-size: 36px;
+    margin: 20;
+}
+
+h3 {
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-style: italic;
+    color:grey;
+}
+
+a:hover {
+    color: white;
+}
+
+/* obsah webu */
+.hlavicka {
+    background-image: url(foto/citadel-paint1.jpg);
+    opacity: 0.9;
+    padding: 120px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    }
+
+.paticka {
+    background-color: #383940;  
+    color: #CACFE6;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.menu {
+    background-color: #383940;  
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: #CACFE6;
+    font-size: 20px;
+    padding: 15px 20px 15px 20px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #707380;
+}
+
+.kdojsem,
+.fotogalerie,
+.zeptejtese {
+    background-color: #CACFE6;
+    color: #383940;
+}
+
+.zaciname,
+.tipyrady {
+    background-color: #E0E5FF;
+    color: #707380;
+}
+
+ol {
+    display: inline-block;
+    padding: 0px 0 20px 20px;
+    margin: 0;
+}
+
+table {  
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+th,
+td {
+    border-bottom: 3px #707380 dotted;
+    padding: 5px 30px;
+    margin: 0;
+}
+
+/* FOTKY */
+.kdojsem img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px #383940 dotted;
+    overflow: auto;
+    float: left;
+    clear: left;
+    margin: 0 30px 20px 0;
+}
+
+.zaciname img, 
+.tipyrady img {
+    width: 350px;
+    border: 2px #707380 solid;
+    border-radius: 20px 0 0 20px;
+    float: right;
+    clear: right;
+    overflow: auto;
+    margin: 0 0 20px 30px; 
+}
+
+.barvy {
+    width: 350px;
+    border: 2px #383940 solid;
+    border-radius: 0 20px 20px 0;
+    float: left;
+    clear: left;
+    overflow: auto;
+    margin: 0 30px 20px 0;
+}
+
+.HP {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px #383940 dotted;
+    float: right;
+    clear: right;
+    overflow: auto;
+    margin: 0 0 20px 30px; 
+}
+
+.fotogalerie img {
+    border: 2px #383940 solid;
+    border-radius: 10px;
+}
+
+.sirka {
+    width: 48%;
+}
+
+.vyska {
+    width: 32%;
+}
+
+/*  šipka "tlačítko Menu" 
+    já vím že to není úplně super, jen jsem si chtěla vyzkoušet position :-) */
+.sipka {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: white;
+    border-radius: 10%;
+    /*box-shadow: rgba(0, 0, 0, 0.7) 0 3px 5px;*/
+    padding: 5px;
+}
+
+.sipka img {
+    border-radius: 50%;
+    width: 50px;
+    padding: 0 5px 0 5px;
+}
+
+.sipka a {
+    padding: 60px 5px 5px 5px;
+    font-family: 'Varela Round', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.sipka a:hover {
+    color: black;
+}
